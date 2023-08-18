@@ -18,4 +18,4 @@
 
 ## Please check how this is working 
 
-[![Watch the video]](/images/Simulator%20Screen%20Recording%20-%20iPhone%2014%20Pro%20-%202023-08-19%20at%2001.26.57.mp4)
+[![Watch the video](/images/simulator_screenshot_947255A9-7837-4B78-9253-3F71E6A180F5.png)](/images/Simulator%20Screen%20Recording%20-%20iPhone%2014%20Pro%20-%202023-08-19%20at%2001.26.57.mp4)
