@@ -16,13 +16,14 @@ echo "current branch : $branch"
 if [ "$branch" == 'develop' ]; then
     ehco "you cant push direclty to develope"
     exit 1
-end
+fi
 
 # checking for main
 
 if [ "$branch" == 'main' ]; then
     ehco "you cant push direclty to develope"
     exit 1
-end
+fi
 
 git add .
+
