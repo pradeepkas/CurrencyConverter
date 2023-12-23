@@ -17,3 +17,4 @@ if [ "$branch" == 'develop' ]; then
     ehco "you cant push direclty to develope"
     exit 1
 end
+
