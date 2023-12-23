@@ -27,3 +27,6 @@ fi
 
 git add .
 
+echo "testing last line "
+
+exit 0
