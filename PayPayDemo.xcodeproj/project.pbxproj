@@ -389,6 +389,7 @@
 				6AB1E0772A85519900EE7A90 /* Sources */,
 				6AB1E0782A85519900EE7A90 /* Frameworks */,
 				6AB1E0792A85519900EE7A90 /* Resources */,
+				6A8D5A792B376B56008247C9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -511,6 +512,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A8D5A792B376B56008247C9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncp .scripts/pre-commit ./.git/hooks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6AB1E0772A85519900EE7A90 /* Sources */ = {
