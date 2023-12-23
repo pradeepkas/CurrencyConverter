@@ -1,0 +1,19 @@
+#!/bin/bash 
+
+echo "-------------------"
+echo "Running precommit script."
+ehco "-------------------"
+
+
+# Branch logic 
+
+branch=$(git rev-parse --abbrev-ref HEAD)
+
+echo "current branch : $branch"
+
+# checking for main 
+
+if [ "$branch" == 'develop' ]; then
+    ehco "you cant push direclty to develope"
+    exit 1
+end
