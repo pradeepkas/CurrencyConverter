@@ -2,7 +2,7 @@
 
 echo "-------------------"
 echo "Running precommit script."
-ehco "-------------------"
+echo "-------------------"
 
 
 # Branch logic 
@@ -11,10 +11,18 @@ branch=$(git rev-parse --abbrev-ref HEAD)
 
 echo "current branch : $branch"
 
-# checking for main 
+# checking for develop 
 
 if [ "$branch" == 'develop' ]; then
     ehco "you cant push direclty to develope"
     exit 1
 end
 
+# checking for main
+
+if [ "$branch" == 'main' ]; then
+    ehco "you cant push direclty to develope"
+    exit 1
+end
+
+git add .
